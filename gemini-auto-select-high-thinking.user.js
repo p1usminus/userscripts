@@ -2,9 +2,10 @@
 // @name         Google Gemini - Automatically select High thinking level
 // @namespace    https://github.com/p1usminus/userscripts
 // @author       plusminus_
-// @version      1.0
+// @version      1.1
 // @license      MIT
 // @description  Selects High thinking level in Gemini's model menu on page load.
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=gemini.google.com
 // @match        https://gemini.google.com/*
 // @run-at       document-idle
 // @grant        none
