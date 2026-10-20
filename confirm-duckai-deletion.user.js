@@ -2,7 +2,7 @@
 // @name         Confirm Duck.ai Chat Deletion
 // @namespace    https://github.com/p1usminus/userscripts
 // @author       plusminus_
-// @version      1.1
+// @version      1.2
 // @license      MIT
 // @description  Ask for confirmation before deleting a Duck.ai chat
 // @match        https://duck.ai/*
@@ -52,7 +52,9 @@
     if (!button || !button.isConnected) return false;
 
     // Never intercept form submission or text entry.
-    if (button.type === 'submit') return false;
+    // Exclude explicit submit buttons. button.type is 'submit' by default for
+    // buttons with no type attribute, so check the attribute instead.
+    if (button.getAttribute('type') === 'submit') return false;
     if (button.closest('textarea, [contenteditable="true"]')) return false;
 
     // Exact match on the accessible name: works wherever the button sits,
