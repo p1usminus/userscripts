@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Google Gemini AI: Add Table of Contents (TOC) to Chats mod
-// @namespace    Violentmonkey userscripts by ReporterX
+// @namespace    https://github.com/p1usminus/userscripts
 // @author       ReporterX, plusminus_
-// @version      1.1
+// @version      1.1.1
 // @description  Add a floating Table of Contents (TOC) with high-contrast text to each Google Gemini chat. This would allow users to easily jump to any section of the chat with a single click. The TOC is adjustable, remembering its size and position for a consistent experience across all chats.
 // @match        https://gemini.google.com/*
 // @grant        none
