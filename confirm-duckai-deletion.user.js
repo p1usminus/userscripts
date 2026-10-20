@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Confirm Duck.ai Chat Deletion
 // @namespace    https://github.com/p1usminus/userscripts
-// @author       p1usminus
+// @author       plusminus_
 // @version      1.1
 // @license      MIT
 // @description  Ask for confirmation before deleting a Duck.ai chat
